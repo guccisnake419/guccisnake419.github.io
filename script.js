@@ -1,3 +1,7 @@
+//TODO: 
+//1. Implement client side storage to store name and high score
+//2. Add homepage/landing page that askes for client's name
+//3. Add gameover sequence, that resets the whole game
 
 const title = React.createElement("h1", null, "GUESS THE DIFFERENT BOX");
 const gamebox = (
