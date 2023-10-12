@@ -35,7 +35,6 @@ function checkStat(event){//checks if a selected box is the answer
     }
 
     if(isright){
-        alert('You are a right')
         levelnum++;
         document.getElementById('level_played').innerHTML=levelnum;
         makeRandBox();
@@ -45,7 +44,7 @@ function checkStat(event){//checks if a selected box is the answer
         
     }
     else{
-        alert('Try again')
+        alert('Wrong Guess, Game Over :(')
         Person.score= levelnum;
         levelnum=1;
         ReactDOM.unmountComponentAtNode(document.getElementById("root"));
